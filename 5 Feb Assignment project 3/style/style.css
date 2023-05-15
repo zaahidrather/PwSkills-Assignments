@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* --------------- Navigation ----------------- */
+nav{
+    display: flex;
+    height: 13vh;
+    background-color: black;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+.logo img{
+    height: 35px;
+    padding-left: 5vw;
+}
+.line{
+    height: 50px;
+    width: 1px;
+    background-color: white;
+}
+.list ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-weight: 500;
+}
+.nav-btn {
+    position: absolute;
+    right: 5vw;
+    border: none;
+    /* flex-grow: 1;
+    text-align: end;
+    padding-right: 5vw; */
+}
+.nav-btn button{
+    padding: 8px 26px;
+    background-color: #ba0cc5;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+}
+.nav-btn button:hover{
+    background-color: white;
+    color: #ba0cc5;
+}
+/* -------------------- Main -------------------- */
+main{
+    height: 90vh;
+    background-image: url(../assets/bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+main h1{
+    font-size:80px;
+    color: white;
+    line-height: 100px;
+    margin: 0 20%;
+    padding-top: 160px;
+    text-align: center;
+}
+main p{
+    color: white;
+    font-size: 30px;
+    font-weight:500;
+}
+.main-btn{
+    padding: 15px 25px;
+    margin-top: 70px;
+    background-color: #ba0cc5;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 30px;
+}
