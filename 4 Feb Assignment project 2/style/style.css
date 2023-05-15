@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80vw;
+    /* height: 100vh; */
+}
+nav{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo img{
+    height: 55px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: initial;
+    font-size: 16px;
+    font-weight: 400;
+}
+nav button{
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5955b3;
+    color: white;
+    font-weight: 600;
+}
+nav button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid #5955b3;
+}
+/********************** Main **************/
+main{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+main h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #3c2e60;
+}
+main h1 span{
+    color: #5955b3;
+}
+main p{
+    padding-top: 20px;
+    color: #828282;
+    font-weight: 500;
+}
+main button{
+    padding: 14px 28px;
+    margin-top: 190px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #5955b3;
+    color: white;
+    font-weight: 600;
+}
+main button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid #5955b3;
+    
+}
