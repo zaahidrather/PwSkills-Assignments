@@ -8,7 +8,6 @@
 }
 body{
     margin: 0 15vw;
-    /* border: 2px solid aqua; */
 }
 a{
     text-decoration: none;
@@ -25,9 +24,8 @@ nav{
     align-items: center;
     margin: 40px 0;
 }
-nav img {
-    width: 25px;
-    height: 25px;
+img[alt="beats-logo"]{
+    scale: 0.8;
   }
 nav ul{
     display: flex;
@@ -305,7 +303,7 @@ img[alt="product-logo"]{
 }
 .product-card-info img{
     height: 15px;
-    /* background-color:transparent; */
+    background-color:transparent;
     outline: 6px solid black;
     border-radius: 3px;
 }
@@ -314,25 +312,64 @@ img[alt="product-logo"]{
 }
 
 /* -------------- Footer ----------- */
+
 footer{
-    display: none;
-}
-.footer-boxes{
     display: flex;
     justify-content: space-between;
-    margin-left:150px;
+    align-items: flex-start;
+    margin: 100px 0;
+    position: relative;
 } 
-
-.footer-boxes ul li{
-    line-height: 25px;
+footer ul:first-of-type{
+    margin-left: -90px;
 }
-.footer-boxes ul li:first-child{
+footer ul li:first-child{
     font-weight: 500;
     font-size: 16px;
     color:white;
 }  
-.footer-boxes ul li{
+footer ul li{
     font-weight: 300;
     font-size: 12px;
+    line-height: 25px;
     color: #BDC0C2;
+    align-items: flex-start;
 }  
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+.email-field{
+    display: flex;
+    background-color: #181A1B;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.subscribe-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;;
+    padding:10px 20px;
+    border-radius: 8px;
+}
+.subscribe-btn img{
+    scale: 0.8;
+}
+.subscribe-btn p{
+    font-size: 12px;
+}
+#mail{
+    background-color: transparent;
+    border: none;
+}
+.social img{
+    margin-right: 10px;
+    scale: 0.8;    
+}
+img[alt="up-arrow"]{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+}
