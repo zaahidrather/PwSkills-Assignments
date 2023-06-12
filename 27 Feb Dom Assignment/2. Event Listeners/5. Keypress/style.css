@@ -1,0 +1,11 @@
+/* ---------------- Css Reset --------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    font-size: 20px;
+    margin-left: 20px;
+}

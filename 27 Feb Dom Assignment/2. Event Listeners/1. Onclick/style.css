@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 30px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+img{
+    height: 40px;
+}
+
+ h2{
+    color: red;
+ }

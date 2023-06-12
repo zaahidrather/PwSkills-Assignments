@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+button{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+span{
+    font-size: 40px;
+    font-weight:bold;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    border-radius:10px;
+    margin-top: 10px;
+}
