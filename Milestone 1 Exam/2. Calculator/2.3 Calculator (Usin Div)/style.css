@@ -1,0 +1,55 @@
+/* ---------------- Css Reset --------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.calculator{
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 10px;    
+}
+
+.display{
+    display: flex;
+}
+input{
+    flex: 1;
+    height: 60px;
+    color: white;
+    border: none;
+    background: transparent;
+    margin: 20px 0;
+    text-align: right;
+    font-size: 25px;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    color: white;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -5px -5px 15px rgb(255 255 255 / 0.1),5px 5px 15px rgb(0 0 0 / 0.2);
+    font-size: 20px;
+}
+
+#equalBtn{
+    width: 145px;
+}
+
+.operatorColor{
+    color: #73e3da;
+}

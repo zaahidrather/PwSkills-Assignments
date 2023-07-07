@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Using Div</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <!-- Display -->
+        <div class="display">
+            <input type="text" name="display">
+        </div>
+        <!-- Keys -->
+        <div class="keys">
+            <div class="row1">
+                <button class="operatorColor" onclick=" display.value = '' ">C</button>
+                <button class="operatorColor" onclick=" display.value = display.value.toString().slice(0,-1) ">DE</button>
+                <button class="operatorColor">√</button>
+                <button class="operatorColor" onclick=" display.value += '' ">/</button>
+            </div>
+            <div class="row2">
+                <button onclick=" display.value += '7' ">7</button>
+                <button onclick=" display.value += '8' ">8</button>
+                <button onclick=" display.value += '9' ">9</button>
+                <button class="operatorColor" onclick=" display.value += '*' ">*</button>
+            </div>
+            <div class="row3">
+                <button onclick=" display.value += '4' ">4</button>
+                <button onclick=" display.value += '5' ">5</button>
+                <button onclick=" display.value += '6' ">6</button>
+                <button class="operatorColor" onclick=" display.value += '-' ">-</button>
+            </div>
+            <div class="row4">
+                <button onclick=" display.value += '1' ">1</button>
+                <button onclick=" display.value += '2' ">2</button>
+                <button onclick=" display.value += '3' ">3</button>
+                <button class="operatorColor" onclick=" display.value += '+' ">+</button>
+            </div>
+            <div class="row5">
+                <button onclick=" display.value += '0' ">0</button>
+                <button onclick=" display.value += '.' ">.</button>
+                <button class="operatorColor" onclick="display.value = eval(display.value)" id="equalBtn">=</button>
+            </div>
+        </div>
+    </div>
+    <!-- Script -->
+    <Script src="./script.js"></Script>
+</body>
+
+</html>

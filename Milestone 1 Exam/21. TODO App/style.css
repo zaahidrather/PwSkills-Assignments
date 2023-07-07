@@ -1,0 +1,67 @@
+/* ---------------- Css Reset --------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #2061cb;
+}
+
+.container{
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1{
+    color: grey;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+header input{
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+header input::placeholder{
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+header button{
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding: 10px 15px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #c7e0e5;
+    padding: 15px;
+}
+
+.delete-button{
+    border: none;
+    background-color: darkblue;
+    outline: 10px solid darkblue;
+    border-radius: 1px;
+    color: #fff;
+}

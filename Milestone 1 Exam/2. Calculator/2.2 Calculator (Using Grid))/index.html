@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Using Grid</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text">
+        </div>
+        <div class="keys">
+            <button class="operatorColor" onclick="clearAll()">C</button>
+            <button onclick="output.value = output.value.toString().slice(0,-1)" class="operatorColor">DE</button>
+            <button onclick="changeSign()" class="operatorColor">+/-</button>
+            <button onclick="display('/')" class="operatorColor">/</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('*')" class="operatorColor">*</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('-')" class="operatorColor">-</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('+')" class="operatorColor">+</button>
+            <button onclick="display('0')">0</button>
+            <button onclick="display('.')">.</button>
+            <button onclick="equals()" class="operatorColor">=</button>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="./script.js"></script>
+</body>
+</html>
