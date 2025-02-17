@@ -33,7 +33,6 @@ let filteredBooks = books.filter((book) => {
     }
 });
 
-// console.log(filteredBooks);
 
 // Capitalizing author name of books published before 2010 :
 

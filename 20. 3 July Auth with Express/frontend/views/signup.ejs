@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Css -->
+     <link rel="stylesheet" href="/assets/css/signup.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Instagram SignUp</h1>
+        </header>
+        <main>
+            <form action="/api/auth/signup" method="post">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your Name"> <br>
+    
+                <label for="userName">User Name</label><br>
+                <input type="text" id="userName" name="userName" placeholder="Enter your User Name"><br>
+    
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter your Email"><br>
+                
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter your Password"><br>
+                
+                <label for="bio">Bio</label><br>
+                <input type="text" id="bio" name="bio" placeholder="Enter your Bio"><br>
+    
+                <button type="submit">Sign Up</button><br>
+
+                <div class="linksContainer">
+                    <a href="/api/auth/forgotPassword">Forgot Password?</a> 
+                    <a href="/api/auth/login">Login</a>
+                </div>
+            </form>
+        </main>
+    </section>
+        
+</body>
+</html>

@@ -1,2 +1,2 @@
 # PwSkills-Assignments
- Assignments from 
+ Assignments of PwSkills Full Stack Web Development  
